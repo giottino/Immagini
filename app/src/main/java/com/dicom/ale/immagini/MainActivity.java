@@ -29,5 +29,7 @@ ivImg=findViewById(R.id.iv_card);
         Glide.with(getApplicationContext())
                 .load("http://via.placeholder.com/300.png")
                 .into(ivImg);
+        ;
+        //semicolon added to check github
     }
 }
